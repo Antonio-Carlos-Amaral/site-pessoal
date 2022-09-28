@@ -94,6 +94,7 @@ a:hover {
 
 .atividades {
    height: 420px;
+   border-color: transparent;
 }
 
 .atividades-sla {

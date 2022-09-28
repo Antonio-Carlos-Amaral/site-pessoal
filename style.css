@@ -121,6 +121,10 @@
     flex-direction: column;
  }
 
+.caixa-p-1 p {
+    font-size: 20px;
+}
+
 .caixa-g-2 {
     position: relative;
     flex-direction: column;
@@ -146,6 +150,11 @@
 .caixa-g-3 p {
     top: 5px;
 }
+
+.caixa-g-3 p:before {
+    content: none;
+}
+
 }
 /********************************************/
 /*       configuração para celular          */
@@ -156,11 +165,21 @@
     flex-direction: column;
 }
 
+.caixa-p-1 p {
+    font-size: 20px;
+}
+
 .caixa-g-2 {
     flex-direction: column;
 }
 
 .caixa-g-3 {
     flex-direction: column;
+    font-size: 20px;
+}
+
+.caixa-g-3 p:before {
+    content: none;
 }
 }
+
