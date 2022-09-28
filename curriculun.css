@@ -1,0 +1,71 @@
+/********************************************/
+/*       configuração para desktop          */
+/********************************************/
+*{
+    margin:  0px auto;
+}
+
+.caixa-g-1 {
+    position: relative;
+    width: 70%;
+    height: 290px;
+    top: 0px;
+    text-align: justify;
+    flex-direction: row;
+} 
+
+.caixinha  {
+    position: relative;
+    margin: auto;
+    width: 140PX;
+    height: 100PX;
+    color: white;
+    text-align: center;
+    left: 401px;
+    bottom: 2317px;
+    background-color: darkgreen;
+}
+
+a {
+    position: relative;
+    color: white;
+    top: 40%;
+}
+
+a:hover {
+    transform: scale(1.7);
+    transition: 2s all;
+    color: lightgreen;
+}
+
+/********************************************/
+/*       configuração para tablet           */
+/********************************************/
+
+@media screen and (max-width:800px) {
+
+ .caixinha {
+    position: initial;
+    flex-direction: column;
+    width: 50;
+    height: 50px;
+    bottom: 3250px;
+    left: 250px;
+ }
+}
+
+/********************************************/
+/*       configuração para celular          */
+/********************************************/
+
+@media screen and (max-width:400px) {
+
+ .caixinha {
+    position: initial;
+    flex-direction: column;
+    width: 50;
+    height: 50px;
+    bottom: 3250px;
+    left: 250px;
+ }
+}    

@@ -1,0 +1,166 @@
+/********************************************/
+/*       configuração para desktop          */
+/********************************************/
+*{
+    margin:  0px auto;
+}
+
+.caixa-g-1 {
+    width: 100%;
+    height: 290px;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+} 
+
+.caixa-p-1 {
+    flex: 1;
+    margin: 4px;    
+    background-color: darkgreen;
+}
+
+#foto, #escritorio {
+
+    width: 380px;
+    height: 279px;
+    display: flex;
+}
+
+.caixa-p-1 img {
+    width: 80%;
+    right: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white; 
+}
+
+.caixa-p-1 p {
+    padding: 10px;
+    margin: 30px;
+    color:  white;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.caixa-g-2 {
+    width: 100%;
+    height: 190px;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+} 
+
+.caixa-p-2 {
+    flex: 1;
+    margin: 4px;
+    background-color: darkgreen;
+}
+
+.caixa-p-2 p {
+    padding: 50px;
+    margin: 30px;
+    color:  white;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    background-color: darkgreen;
+    text-decoration: underline;
+}
+
+.caixa-p-2 a {    
+    color:  white;
+}
+
+.caixa-p-2 p:hover {
+    transform: scale(1.03);
+    transition: 2s all;
+    border-width: 3px;
+    background-color: forestgreen;
+}
+
+.caixa-g-3 {
+    width: 100%;
+    height: 213px; 
+    color:  white;
+    font-size: 20px;
+    text-align: center;  
+    display: flex;
+    background-color: darkgreen;
+    flex-direction: row;
+} 
+
+.caixa-g-3 p {
+    position: relative;
+    height: 35px;
+    top: 100px;
+} 
+
+.caixa-g-3 p:before {
+    content: "🟊";
+}
+
+.caixa-g-3 a {
+    color: white;
+}
+/********************************************/
+/*       configuração para tablet           */
+/********************************************/
+@media screen and (max-width:800px) {
+
+ .caixa-g-1 {
+    position: relative;
+    flex-direction: column;
+    height: 900px;
+ }
+
+.caixa-p-1 {
+    flex-direction: column;
+ }
+
+.caixa-g-2 {
+    position: relative;
+    flex-direction: column;
+    height: 800px;
+}
+
+.caixa-p-2 {
+    flex-direction: column;
+}
+
+.caixa-p-2 p {
+    padding: 60px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.caixa-g-3 {
+    position: relative;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.caixa-g-3 p {
+    top: 5px;
+}
+}
+/********************************************/
+/*       configuração para celular          */
+/********************************************/
+@media screen and (max-width:600px) { 
+
+ .caixa-g-1 {
+    flex-direction: column;
+}
+
+.caixa-g-2 {
+    flex-direction: column;
+}
+
+.caixa-g-3 {
+    flex-direction: column;
+}
+}

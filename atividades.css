@@ -1,0 +1,114 @@
+/********************************************/
+/*       configuração para desktop          */
+/********************************************/
+*{
+    margin:  0px auto;
+}
+
+.atividades {
+    position: relative;
+    width: 70%;
+    height: 290px;
+    font-size: 18px;
+    top: 0px;
+    text-align: justify;
+    flex-direction: row;
+    padding: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgreen; 
+} 
+
+.atividades-sla {
+    position: relative;
+    width: 70%;
+    height: 390px;
+    font-size: 18px;
+    top: 0px;
+    text-align: justify;
+    flex-direction: row;
+    padding: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgreen; 
+} 
+
+.caixinha  {
+    position: relative;
+    margin: auto;
+    width: 100PX;
+    height: 60PX;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    left: 0px;
+    bottom: 10px;
+    top: 100px;
+    background-color: darkgreen;
+}
+
+a {
+    position: relative;
+    color: white;
+    top: 40%;
+}
+
+a:hover {
+    transform: scale(1.7);
+    transition: 2s all;
+    color: lightgreen;
+}
+
+/********************************************/
+/*       configuração para tablet           */
+/********************************************/
+
+@media screen and (max-width:800px) {
+
+.atividades {
+   height: 420px;
+}
+
+
+.atividades-sla {
+    position: relative;
+   height: 560px;
+   font-size: 15px;
+}
+
+ .caixinha {
+    position: initial;
+    flex-direction: column;
+    width: 50;
+    height: 50px;
+    bottom: 3200px;
+    left: 250px;
+ }
+}
+
+/********************************************/
+/*       configuração para celular          */
+/********************************************/
+
+@media screen and (max-width:400px) {
+
+.atividades {
+   height: 420px;
+}
+
+.atividades-sla {
+   position: relative;
+   height: 780px;
+   font-size: 15px;
+   border-color: transparent;
+}
+
+ .caixinha {
+    position: initial;
+    flex-direction: column;
+    width: 50;
+    height: 50px;
+    top: 100px;
+    left: 250px;
+ }
+}    
